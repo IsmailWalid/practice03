@@ -36,7 +36,7 @@
         <h1>Our contact form</h1>
         <h2>Please to fill all the required information</h2>
 
-        <form>
+        <form action="https://httpbin.org/get" method="get">
           <fieldset>
             <legend>Send us a message</legend>
             <label for="name">Name:</label>
@@ -63,8 +63,8 @@
             ></textarea
             ><br />
           </fieldset>
-          <button type="button">Send</button>
-          <button type="button">reset</button>
+          <button type="submit">Send</button>
+          <button type="reset">reset</button>
         </form>
       </section>
     </main>
